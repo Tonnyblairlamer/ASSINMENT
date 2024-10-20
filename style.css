@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.5;
+}
+body{
+    background-color: rgb(199, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav,footer{
+    padding: 30px;
+    background-color: azure;
+    text-align: right;
+}
+nav a{
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+nav a:hover{
+    background-color: #164619;
+    color: black;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+.welcome{
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+h1{
+    color: rgb(245, 28, 28);
+    font-size: 30px;
+}
+.courses{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 50px;
+    justify-content: space-between;
+}
+.ourcourses{
+    width: 32%;
+    background-color: rgb(156, 193, 241);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}.ourcourses img{
+    border-radius: 17px;
+    height: 300px;
+}
+footer{
+    text-align: center;
+}
+h2{
+    color: #edf0ec;
+}
+.buttons p a{
+    text-align: center;
+    background: #fff;
+    color: black;
+    padding: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.buttons{
+    align-items: center;
+    margin-left: 500px;
+    margin-bottom: 40px;
+}
+.buttons p a:hover{
+    background: aqua;
+}
